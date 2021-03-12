@@ -1,6 +1,6 @@
 # Loan-prediction-dataset
 
-Introduction:
+# Introduction:
 
 From the challange hosted at: https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/
 
@@ -38,11 +38,11 @@ Property_Area - The area where they belong to, here there are 3 types: Urban or 
 
 Loan_Status - The applicant is eligible for loan it’s yes represented by Y else it’s no represented by N.
 
-purpose:
+# Purpose:
 The problem is to predict which of the customers will have their loan paid or not with given features.The variable Loan_Status is our target variable and the remaining are the feature variables of the dataset.
 
 
-Exploratory Data Analysis:
+# Exploratory Data Analysis:
 
 Data cleaning:
 columns which have missing values are:(Credit_History, Self_Employed, LoanAmount, Dependents, Loan_Amount_Term, Gender, Married).Imputed missing Values with sensible values.(most counts of value, mean, mode and median)
@@ -99,7 +99,7 @@ Bivariate Analysis for loan prediction data:
 No correlations are extremely high. The correlations between LoanAmount and ApplicantIncome can be explained.
 
 
-Machine learning:
+# Machine learning:
 
 This is a supervised classification problem, as the target variable is categorical.
 Here  logistic Regression works well to training set which gives 82.43 % accuracy.So we will use it to predict loan status on the test dataset.
